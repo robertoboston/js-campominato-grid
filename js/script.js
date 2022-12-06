@@ -18,7 +18,6 @@ playBtn.addEventListener('click', function(){
         divItem.addEventListener('click',function(){
             this.classList.add('azure')
             console.log(this.innerText)
-            
         })
         
     }
