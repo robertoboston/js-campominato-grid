@@ -7,6 +7,9 @@
 header{
     height: 100px;
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -32,12 +35,18 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
-.square.blue{
-    background-color: blue;
+.azure{
+    background-color: azure;
 }
 
 footer{
     height: 100px;
+}
+
+#btn{
+    padding: 10px;
+
 }
