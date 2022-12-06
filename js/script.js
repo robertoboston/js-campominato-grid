@@ -1,18 +1,28 @@
 
-
-
 let grid= document.getElementById('grid')
+let divItem;
 
-for(let i = 1; i<=100; i++){
-    let divItem= document.createElement('div')
+function createDiv (){
+    for(let i = 1; i<=100; i++){
+        divItem = document.createElement('div')
+        
+        grid.appendChild(divItem)
     
-    grid.appendChild(divItem)
-
-    divItem.classList.add('square')
-
-    divItem.innerHTML= [i]
+        divItem.classList.add('square')
     
-
+        divItem.innerText= [i]
+        
+    }
 
 }
+
+createDiv()
+
+
+
+
+
+
+
+
 
